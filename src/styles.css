@@ -1,0 +1,39 @@
+.App{
+    display: grid;
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+      background-color: rgb(255, 0, 0);
+      grid-template-areas:
+      "one two"
+      "one five ";
+  }
+
+ .menu{
+      height: 700px;
+      width: 300px;
+      margin-top: 50px;
+      margin-left: 50px;
+      background-color: rgba(78, 33, 33, 0.616);
+      grid-area: one;
+      text-align: center;
+  }
+
+  .top{
+      grid-area: two;
+      display: flex;
+      justify-content: space-around;
+      width: 600px;
+      margin: 50px 20px;
+
+      background-color: rgba(58, 9, 7, 0.31);
+  }
+
+  .visitors{
+    background-color: rgba(241, 206, 4, 0.31);
+    width: 600px;
+    height: 400px;
+    margin: 10px 20px;
+    text-align: center;
+  }
+
